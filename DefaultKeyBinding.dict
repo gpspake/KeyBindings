@@ -9,6 +9,9 @@
   // titlecase word
   "^T" = (capitalizeWord:, moveWordForward:, moveWordBackward:);
 
+  // hyphenate next space and move to next word 
+  "@~_" = (selectWord:, moveRight:, setMark:, moveWordRight:, moveWordLeft:, moveLeft:, selectWord:, insertText:, "-", moveWordRight:); 
+
   // uppercase current paragraph
   "^~U" = (setMark:, selectParagraph:, uppercaseWord:, swapWithMark:);
   // lowercase current paragraph
